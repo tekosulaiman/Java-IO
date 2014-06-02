@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  */
 public class BufferedInputStreamExample {
     public static void main(String[] args) {
-        File file = new File("src/testing.txt");
+        File file = new File("src/resources/New Text Document.txt");
     
         FileInputStream fileInputStream = null;
         BufferedInputStream bufferedInputStream = null;

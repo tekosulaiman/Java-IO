@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class FilePermissionExample {
     public static void main(String[] args) {
         try {
-            File file = new File("src/DnsJumper.exe");
+            File file = new File("src/resources/Dns Jumper.exe");
 
             if(file.exists()){
                 System.out.println("Is Execute allow : "+file.canExecute());
@@ -27,7 +27,8 @@ public class FilePermissionExample {
             System.out.println("Is Write allow : "+file.canWrite());
             System.out.println("Is Read allow : "+file.canRead());
         
-        
+            System.out.println("");
+            
             if(file.createNewFile()){
                 System.out.println("File is created!");
             }else{

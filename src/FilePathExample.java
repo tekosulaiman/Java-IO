@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  */
 public class FilePathExample {
     public static void main(String[] args) {
-        String filename = "/src/testing.txt";
+        String filename = "/src/resources/New Text Document.txt";
         String finalfile = "";
         String workingDir = System.getProperty("user.dir");
         
